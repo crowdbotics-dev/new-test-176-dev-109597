@@ -9,3 +9,7 @@ class D1(models.Model):
         null=True,
         blank=True,
     )
+    t3 = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
